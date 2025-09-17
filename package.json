@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "clean": "rm -rf node_modules && rm -rf package-lock.json && cd android && rm -rf .gradle app/build && cd .. && cd ios && rm -rf Pods build && ./gradlew clean build",
+    "clean": "rm -rf node_modules package-lock.json && cd android && rm -rf .gradle app/build && cd .. && cd ios && rm -rf Pods build && cd ..",
     "codegen": "npx react-native codegen"
   },
   "dependencies": {
