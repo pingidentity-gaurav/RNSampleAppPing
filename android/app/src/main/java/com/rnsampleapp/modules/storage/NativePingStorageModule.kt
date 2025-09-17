@@ -1,4 +1,4 @@
-package com.pingstorage
+package com.rnsampleapp.modules.storage
 
 import android.content.Context
 import android.util.Log
