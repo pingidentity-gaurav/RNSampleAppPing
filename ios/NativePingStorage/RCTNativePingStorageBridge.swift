@@ -18,7 +18,7 @@ import PingStorage
     @objc(configure:resolve:reject:)
     public func configure(_ config: NSDictionary, resolve: @escaping (Bool) -> Void, reject: @escaping (String, String, NSError?) -> Void) {
         guard let type = config["type"] as? String else {
-            rejecter("STORAGE_CONFIG_ERROR", "Missing storage type in configuration", nil)
+            reject("STORAGE_CONFIG_ERROR", "Missing storage type in configuration", nil)
             return
         }
         
@@ -31,13 +31,13 @@ import PingStorage
                     
                 case "keychain":
                     guard let keyAlias = config["keyAlias"] as? String else {
-                        rejecter("STORAGE_CONFIG_ERROR", "keyAlias is required for keychain storage", nil)
+                        reject("STORAGE_CONFIG_ERROR", "keyAlias is required for keychain storage", nil)
                         return
                     }
                     storage = KeychainStorage<Data>(account: keyAlias)
                     
                 default:
-                    rejecter("STORAGE_CONFIG_ERROR", "Unsupported storage type: \(type). Supported types: memory, keychain", nil)
+                    reject("STORAGE_CONFIG_ERROR", "Unsupported storage type: \(type). Supported types: memory, keychain", nil)
                     return
                 }
                 
@@ -51,7 +51,6 @@ import PingStorage
     private func ensureStorageConfigured(rejecter: @escaping (String, String, NSError?) -> Void) -> Bool {
       if #available(iOS 16.0.0, *) {
         guard storage != nil else {
-          rejecter("STORAGE_NOT_CONFIGURED", "Storage not configured. Call configure() first.", nil)
           return false
         }
       } else {

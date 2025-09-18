@@ -43,12 +43,12 @@
          resolve:(RCTPromiseResolveBlock)resolve
          reject:(RCTPromiseRejectBlock)reject
 {
-  [_bridge configure:config resolver:^(BOOL result) {
+  [_bridge configure:config resolve:^(BOOL result) {
 
     NSLog(@"Configuration result: %d", result);
     resolve(@(result));
 
-  } rejecter:^(NSString *code, NSString *message, NSError *error) {
+  } reject:^(NSString *code, NSString *message, NSError *error) {
     reject(code, message, error);
   }];
 }
@@ -60,13 +60,13 @@
   NSLog(@"RCTNativePingStorage: save method called with item: %@", item);
   NSLog(@"RCTNativePingStorage: bridge instance: %@", _bridge);
   
-  [_bridge save:item resolver:^(BOOL result) {
+  [_bridge save:item resolve:^(BOOL result) {
 
     NSLog(@"RCTNativePingStorage: Save completed with result: %d", result);
 
     resolve(@(result));
 
-  } rejecter:^(NSString *code, NSString *message, NSError *error) {
+  } reject:^(NSString *code, NSString *message, NSError *error) {
     NSLog(@"RCTNativePingStorage: Save failed with error: %@ - %@", code, message);
     reject(code, message, error);
   }];
@@ -79,7 +79,7 @@
 
     resolve(result ?: (id)kCFNull);
 
-  } rejecter:^(NSString *code, NSString *message, NSError *error) {
+  } reject:^(NSString *code, NSString *message, NSError *error) {
     reject(code, message, error);
   }];
 }
@@ -91,7 +91,7 @@
 
     resolve(@(result));
 
-  } rejecter:^(NSString *code, NSString *message, NSError *error) {
+  } reject:^(NSString *code, NSString *message, NSError *error) {
     reject(code, message, error);
   }];
 }
