@@ -47,5 +47,10 @@
   "name": "NativePingStorage",
   "type": "modules",
   "jsSrcsDir": "./src/specs"
+},
+  "ios": {
+    "modulesProvider": {
+      "NativePingStorage": "NativePingStorage"
+    }
 }
 }
