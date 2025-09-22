@@ -81,11 +81,6 @@ static inline NSString *toNSString(const std::string &str) {
     NSLog(@"NativePingStorage: config.keyAlias = %@", keyAlias);
   }
 
-  if (config.strongBoxPreferred()) {
-    configDict[@"strongBoxPreferred"] = @(*config.strongBoxPreferred());
-    NSLog(@"NativePingStorage: config.strongBoxPreferred = %d", *config.strongBoxPreferred());
-  }
-
   NSString *cacheStrategy = config.cacheStrategy();
   if (cacheStrategy) {
     configDict[@"cacheStrategy"] = cacheStrategy;
