@@ -7,34 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-RNSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNSampleApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		220A7DCF15383E76D6C51F31 /* libPods-RNSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E929A9D384D6BA47F9F80875 /* libPods-RNSampleApp.a */; };
+		5F1DAE3D2EA008A800F70787 /* PingBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE3C2EA008A800F70787 /* PingBrowser */; };
+		5F1DAE3F2EA008A800F70787 /* PingDavinci in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE3E2EA008A800F70787 /* PingDavinci */; };
+		5F1DAE412EA008A800F70787 /* PingExternalIdP in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE402EA008A800F70787 /* PingExternalIdP */; };
+		5F1DAE432EA008A800F70787 /* PingExternalIdPApple in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE422EA008A800F70787 /* PingExternalIdPApple */; };
+		5F1DAE452EA008A800F70787 /* PingExternalIdPFacebook in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE442EA008A800F70787 /* PingExternalIdPFacebook */; };
+		5F3E8CBD2E90764A00B19F6C /* NativePingJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E8CBC2E90764A00B19F6C /* NativePingJourney.swift */; };
+		5F3E8CC22E90767D00B19F6C /* NativePingJourney.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E8CC12E90767D00B19F6C /* NativePingJourney.mm */; };
+		5FF353842E83983100AF7188 /* NativePingStorage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FF353802E83983100AF7188 /* NativePingStorage.mm */; };
+		5FF353852E83983100AF7188 /* NativePingStorageModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF353812E83983100AF7188 /* NativePingStorageModule.swift */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		87BCA8B385F14805160B29CB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RNSampleApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNSampleApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNSampleApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RNSampleApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-RNSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-RNSampleApp/Pods-RNSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-RNSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSampleApp.release.xcconfig"; path = "Target Support Files/Pods-RNSampleApp/Pods-RNSampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RNSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3E8CBC2E90764A00B19F6C /* NativePingJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePingJourney.swift; sourceTree = "<group>"; };
+		5F3E8CC02E90766F00B19F6C /* NativePingJourney.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativePingJourney.h; sourceTree = "<group>"; };
+		5F3E8CC12E90767D00B19F6C /* NativePingJourney.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativePingJourney.mm; sourceTree = "<group>"; };
+		5FF3537F2E83983100AF7188 /* NativePingStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativePingStorage.h; sourceTree = "<group>"; };
+		5FF353802E83983100AF7188 /* NativePingStorage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativePingStorage.mm; sourceTree = "<group>"; };
+		5FF353812E83983100AF7188 /* NativePingStorageModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePingStorageModule.swift; sourceTree = "<group>"; };
+		60C698D96914BA91FA39037B /* Pods-RNSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSampleApp.release.xcconfig"; path = "Target Support Files/Pods-RNSampleApp/Pods-RNSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RNSampleApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNSampleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E929A9D384D6BA47F9F80875 /* libPods-RNSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDB5D33AE41CDECFE5FC5D9B /* Pods-RNSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-RNSampleApp/Pods-RNSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,24 +47,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-RNSampleApp.a in Frameworks */,
+				220A7DCF15383E76D6C51F31 /* libPods-RNSampleApp.a in Frameworks */,
+				5F1DAE412EA008A800F70787 /* PingExternalIdP in Frameworks */,
+				5F1DAE432EA008A800F70787 /* PingExternalIdPApple in Frameworks */,
+				5F1DAE452EA008A800F70787 /* PingExternalIdPFacebook in Frameworks */,
+				5F1DAE3D2EA008A800F70787 /* PingBrowser in Frameworks */,
+				5F1DAE3F2EA008A800F70787 /* PingDavinci in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* RNSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				5FF353832E83983100AF7188 /* modules */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -73,9 +76,46 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RNSampleApp.a */,
+				E929A9D384D6BA47F9F80875 /* libPods-RNSampleApp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F3E8CBB2E9075F900B19F6C /* NativePingJourney */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E8CBC2E90764A00B19F6C /* NativePingJourney.swift */,
+				5F3E8CC02E90766F00B19F6C /* NativePingJourney.h */,
+				5F3E8CC12E90767D00B19F6C /* NativePingJourney.mm */,
+			);
+			path = NativePingJourney;
+			sourceTree = "<group>";
+		};
+		5FF3537E2E83983100AF7188 /* NativePingBrowser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NativePingBrowser;
+			sourceTree = "<group>";
+		};
+		5FF353822E83983100AF7188 /* NativePingStorage */ = {
+			isa = PBXGroup;
+			children = (
+				5FF3537F2E83983100AF7188 /* NativePingStorage.h */,
+				5FF353802E83983100AF7188 /* NativePingStorage.mm */,
+				5FF353812E83983100AF7188 /* NativePingStorageModule.swift */,
+			);
+			path = NativePingStorage;
+			sourceTree = "<group>";
+		};
+		5FF353832E83983100AF7188 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E8CBB2E9075F900B19F6C /* NativePingJourney */,
+				5FF3537E2E83983100AF7188 /* NativePingBrowser */,
+				5FF353822E83983100AF7188 /* NativePingStorage */,
+			);
+			path = modules;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -110,8 +150,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-RNSampleApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-RNSampleApp.release.xcconfig */,
+				EDB5D33AE41CDECFE5FC5D9B /* Pods-RNSampleApp.debug.xcconfig */,
+				60C698D96914BA91FA39037B /* Pods-RNSampleApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -123,13 +163,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNSampleApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				3375871B6FF57F4797665E98 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				0E906FF57250FC0F34477187 /* [CP] Embed Pods Frameworks */,
+				AF402774C92569ABD3004C93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,19 +215,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				87BCA8B385F14805160B29CB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +244,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		0E906FF57250FC0F34477187 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,7 +261,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNSampleApp/Pods-RNSampleApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		3375871B6FF57F4797665E98 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,7 +283,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		AF402774C92569ABD3004C93 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,24 +307,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3E8CC22E90767D00B19F6C /* NativePingJourney.mm in Sources */,
+				5F3E8CBD2E90764A00B19F6C /* NativePingJourney.swift in Sources */,
+				5FF353842E83983100AF7188 /* NativePingStorage.mm in Sources */,
+				5FF353852E83983100AF7188 /* NativePingStorageModule.swift in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RNSampleApp */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNSampleApp.debug.xcconfig */;
+			baseConfigurationReference = EDB5D33AE41CDECFE5FC5D9B /* Pods-RNSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -315,7 +348,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNSampleApp.release.xcconfig */;
+			baseConfigurationReference = 60C698D96914BA91FA39037B /* Pods-RNSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -408,7 +441,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -473,7 +513,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -500,6 +546,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ForgeRock/ping-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F1DAE3C2EA008A800F70787 /* PingBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingBrowser;
+		};
+		5F1DAE3E2EA008A800F70787 /* PingDavinci */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingDavinci;
+		};
+		5F1DAE402EA008A800F70787 /* PingExternalIdP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingExternalIdP;
+		};
+		5F1DAE422EA008A800F70787 /* PingExternalIdPApple */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingExternalIdPApple;
+		};
+		5F1DAE442EA008A800F70787 /* PingExternalIdPFacebook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingExternalIdPFacebook;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
