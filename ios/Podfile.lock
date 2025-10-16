@@ -2212,7 +2212,7 @@ PODS:
     - React-perflogger (= 0.80.1)
     - React-utils (= 0.80.1)
     - SocketRocket
-  - RNScreens (4.16.0):
+  - RNScreens (4.17.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2240,10 +2240,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNScreens/common (= 4.16.0)
+    - RNScreens/common (= 4.17.1)
     - SocketRocket
     - Yoga
-  - RNScreens/common (4.16.0):
+  - RNScreens/common (4.17.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2580,9 +2580,9 @@ SPEC CHECKSUMS:
   React-timing: c3c923df2b86194e1682e01167717481232f1dc7
   React-utils: 7791a96e194eec85cb41dc98a2045b5f07839598
   ReactAppDependencyProvider: ba631a31783569c13056dd57ff39e19764abdd6f
-  ReactCodegen: 10665a2283dbc42ccbe669aad2d51b3be4282716
+  ReactCodegen: f96dd032a9f873cde5b72491bfb60c3200d8628d
   ReactCommon: 96684b90b235d6ae340d126141edd4563b7a446a
-  RNScreens: be724c511fc1ed615804ac814f956ec723c7e4cb
+  RNScreens: 2acec4393bc154b3a7ce4712fd47b55eb55c0047
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 703055a9f39562521cdb8657162dfd80f8c174c3
 

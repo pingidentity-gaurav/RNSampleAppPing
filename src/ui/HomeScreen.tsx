@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import NativePingBrowser from '../specs/NativePingBrowser';
+//import NativePingBrowser from '../specs/NativePingBrowser';
+import NativePingStorage from '../specs/NativePingStorage';
 
 type RootStackParamList = {
   Home: undefined;
@@ -22,13 +23,14 @@ export default function HomeScreen({ navigation }: Props) {
   ];
 
   async function openBrowser() {
-    const redirect = await NativePingBrowser.launch(
-      'https://httpbin.org/redirect-to?url=myapp://callback?code=12345', // Automatic callback test url
-      'myapp://callback',
-    );
+    // const redirect = await NativePingBrowser.launch(
+    //   'https://httpbin.org/redirect-to?url=myapp://callback?code=12345', // Automatic callback test url
+    //   'myapp://callback',
+    // );
 
-    console.log('Redirect received:', redirect);
+    // console.log('Redirect received:', redirect);
   }
+
 
   return (
     <View style={styles.container}>
