@@ -21,6 +21,28 @@ export type Node = {
   }>;
 };
 
+export type JourneyConfig = {
+  serverUrl: string;
+  realm?: string;
+  cookie?: string;
+  clientId?: string;
+  discoveryEndpoint?: string;
+  redirectUri?: string;
+  scopes?: string[];
+};
+
+// Represents user claims from OIDC `userinfo()` endpoint
+export type JourneyUserInfo = Record<string, string | number | boolean | null>;
+
+// Represents the combined session + tokens structure returned from Swift
+export interface JourneyUserSession {
+  accessToken: string;
+  refreshToken?: string;
+  expiresIn?: number;
+  userInfo?: JourneyUserInfo;
+}
+
+
 /**
  * Optional flags when starting a Journey.
  */
@@ -35,7 +57,6 @@ export interface Spec extends TurboModule {
   get(): Promise<Object | null>;
   remove(): Promise<boolean>;
 
-  // Journey
   /**
    * Configure the Journey SDK.
    */

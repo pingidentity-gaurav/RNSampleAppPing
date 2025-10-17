@@ -10,12 +10,18 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		220A7DCF15383E76D6C51F31 /* libPods-RNSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E929A9D384D6BA47F9F80875 /* libPods-RNSampleApp.a */; };
 		5F1DAE3D2EA008A800F70787 /* PingBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE3C2EA008A800F70787 /* PingBrowser */; };
-		5F1DAE3F2EA008A800F70787 /* PingDavinci in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE3E2EA008A800F70787 /* PingDavinci */; };
-		5F1DAE412EA008A800F70787 /* PingExternalIdP in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE402EA008A800F70787 /* PingExternalIdP */; };
-		5F1DAE432EA008A800F70787 /* PingExternalIdPApple in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE422EA008A800F70787 /* PingExternalIdPApple */; };
-		5F1DAE452EA008A800F70787 /* PingExternalIdPFacebook in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1DAE442EA008A800F70787 /* PingExternalIdPFacebook */; };
-		5F3E8CBD2E90764A00B19F6C /* NativePingJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E8CBC2E90764A00B19F6C /* NativePingJourney.swift */; };
-		5F3E8CC22E90767D00B19F6C /* NativePingJourney.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E8CC12E90767D00B19F6C /* NativePingJourney.mm */; };
+		5FF224642EA17E65006B88BF /* PingBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224632EA17E65006B88BF /* PingBrowser */; };
+		5FF224722EA17E65006B88BF /* PingJourney in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224712EA17E65006B88BF /* PingJourney */; };
+		5FF224742EA17E65006B88BF /* PingLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224732EA17E65006B88BF /* PingLogger */; };
+		5FF2247A2EA17E65006B88BF /* PingOidc in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224792EA17E65006B88BF /* PingOidc */; };
+		5FF2247C2EA17E65006B88BF /* PingOrchestrate in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF2247B2EA17E65006B88BF /* PingOrchestrate */; };
+		5FF224802EA17E65006B88BF /* PingStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF2247F2EA17E65006B88BF /* PingStorage */; };
+		5FF224852EA18074006B88BF /* PingBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224842EA18074006B88BF /* PingBrowser */; };
+		5FF224872EA18074006B88BF /* PingJourney in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224862EA18074006B88BF /* PingJourney */; };
+		5FF224892EA18074006B88BF /* PingLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF224882EA18074006B88BF /* PingLogger */; };
+		5FF2248B2EA18074006B88BF /* PingOidc in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF2248A2EA18074006B88BF /* PingOidc */; };
+		5FF2248D2EA18074006B88BF /* PingOrchestrate in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF2248C2EA18074006B88BF /* PingOrchestrate */; };
+		5FF2248F2EA18074006B88BF /* PingStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF2248E2EA18074006B88BF /* PingStorage */; };
 		5FF353842E83983100AF7188 /* NativePingStorage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FF353802E83983100AF7188 /* NativePingStorage.mm */; };
 		5FF353852E83983100AF7188 /* NativePingStorageModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF353812E83983100AF7188 /* NativePingStorageModule.swift */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
@@ -28,9 +34,6 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNSampleApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNSampleApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RNSampleApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		5F3E8CBC2E90764A00B19F6C /* NativePingJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePingJourney.swift; sourceTree = "<group>"; };
-		5F3E8CC02E90766F00B19F6C /* NativePingJourney.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativePingJourney.h; sourceTree = "<group>"; };
-		5F3E8CC12E90767D00B19F6C /* NativePingJourney.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativePingJourney.mm; sourceTree = "<group>"; };
 		5FF3537F2E83983100AF7188 /* NativePingStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativePingStorage.h; sourceTree = "<group>"; };
 		5FF353802E83983100AF7188 /* NativePingStorage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativePingStorage.mm; sourceTree = "<group>"; };
 		5FF353812E83983100AF7188 /* NativePingStorageModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePingStorageModule.swift; sourceTree = "<group>"; };
@@ -48,11 +51,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				220A7DCF15383E76D6C51F31 /* libPods-RNSampleApp.a in Frameworks */,
-				5F1DAE412EA008A800F70787 /* PingExternalIdP in Frameworks */,
-				5F1DAE432EA008A800F70787 /* PingExternalIdPApple in Frameworks */,
-				5F1DAE452EA008A800F70787 /* PingExternalIdPFacebook in Frameworks */,
+				5FF2248B2EA18074006B88BF /* PingOidc in Frameworks */,
+				5FF224742EA17E65006B88BF /* PingLogger in Frameworks */,
+				5FF224872EA18074006B88BF /* PingJourney in Frameworks */,
+				5FF2248D2EA18074006B88BF /* PingOrchestrate in Frameworks */,
+				5FF224802EA17E65006B88BF /* PingStorage in Frameworks */,
+				5FF2247C2EA17E65006B88BF /* PingOrchestrate in Frameworks */,
+				5FF224852EA18074006B88BF /* PingBrowser in Frameworks */,
 				5F1DAE3D2EA008A800F70787 /* PingBrowser in Frameworks */,
-				5F1DAE3F2EA008A800F70787 /* PingDavinci in Frameworks */,
+				5FF224642EA17E65006B88BF /* PingBrowser in Frameworks */,
+				5FF224892EA18074006B88BF /* PingLogger in Frameworks */,
+				5FF2248F2EA18074006B88BF /* PingStorage in Frameworks */,
+				5FF2247A2EA17E65006B88BF /* PingOidc in Frameworks */,
+				5FF224722EA17E65006B88BF /* PingJourney in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,23 +92,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F3E8CBB2E9075F900B19F6C /* NativePingJourney */ = {
-			isa = PBXGroup;
-			children = (
-				5F3E8CBC2E90764A00B19F6C /* NativePingJourney.swift */,
-				5F3E8CC02E90766F00B19F6C /* NativePingJourney.h */,
-				5F3E8CC12E90767D00B19F6C /* NativePingJourney.mm */,
-			);
-			path = NativePingJourney;
-			sourceTree = "<group>";
-		};
-		5FF3537E2E83983100AF7188 /* NativePingBrowser */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NativePingBrowser;
-			sourceTree = "<group>";
-		};
 		5FF353822E83983100AF7188 /* NativePingStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +105,6 @@
 		5FF353832E83983100AF7188 /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				5F3E8CBB2E9075F900B19F6C /* NativePingJourney */,
-				5FF3537E2E83983100AF7188 /* NativePingBrowser */,
 				5FF353822E83983100AF7188 /* NativePingStorage */,
 			);
 			path = modules;
@@ -203,7 +195,7 @@
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			packageReferences = (
-				5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */,
+				5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */,
 			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
@@ -307,8 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3E8CC22E90767D00B19F6C /* NativePingJourney.mm in Sources */,
-				5F3E8CBD2E90764A00B19F6C /* NativePingJourney.swift in Sources */,
 				5FF353842E83983100AF7188 /* NativePingStorage.mm in Sources */,
 				5FF353852E83983100AF7188 /* NativePingStorageModule.swift in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
@@ -556,6 +546,22 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ForgeRock/ping-ios-sdk.git";
+			requirement = {
+				branch = "SDKS-4325-Journey-POC-RN";
+				kind = branch;
+			};
+		};
+		5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ForgeRock/ping-ios-sdk.git";
+			requirement = {
+				branch = "SDKS-4325-Journey-POC-RN";
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -564,25 +570,65 @@
 			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
 			productName = PingBrowser;
 		};
-		5F1DAE3E2EA008A800F70787 /* PingDavinci */ = {
+		5FF224632EA17E65006B88BF /* PingBrowser */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
-			productName = PingDavinci;
+			package = 5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingBrowser;
 		};
-		5F1DAE402EA008A800F70787 /* PingExternalIdP */ = {
+		5FF224712EA17E65006B88BF /* PingJourney */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
-			productName = PingExternalIdP;
+			package = 5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingJourney;
 		};
-		5F1DAE422EA008A800F70787 /* PingExternalIdPApple */ = {
+		5FF224732EA17E65006B88BF /* PingLogger */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
-			productName = PingExternalIdPApple;
+			package = 5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingLogger;
 		};
-		5F1DAE442EA008A800F70787 /* PingExternalIdPFacebook */ = {
+		5FF224792EA17E65006B88BF /* PingOidc */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5F1DAE3B2EA008A800F70787 /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
-			productName = PingExternalIdPFacebook;
+			package = 5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingOidc;
+		};
+		5FF2247B2EA17E65006B88BF /* PingOrchestrate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingOrchestrate;
+		};
+		5FF2247F2EA17E65006B88BF /* PingStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224622EA17E65006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingStorage;
+		};
+		5FF224842EA18074006B88BF /* PingBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingBrowser;
+		};
+		5FF224862EA18074006B88BF /* PingJourney */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingJourney;
+		};
+		5FF224882EA18074006B88BF /* PingLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingLogger;
+		};
+		5FF2248A2EA18074006B88BF /* PingOidc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingOidc;
+		};
+		5FF2248C2EA18074006B88BF /* PingOrchestrate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingOrchestrate;
+		};
+		5FF2248E2EA18074006B88BF /* PingStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FF224832EA18074006B88BF /* XCRemoteSwiftPackageReference "ping-ios-sdk" */;
+			productName = PingStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

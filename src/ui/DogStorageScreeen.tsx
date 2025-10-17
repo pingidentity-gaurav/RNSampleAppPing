@@ -1,5 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, ScrollView } from 'react-native';
+import React, { useState } from 'react';
+import {
+  View,
+  Text,
+  TextInput,
+  Button,
+  StyleSheet,
+  ScrollView,
+} from 'react-native';
 import { TypedStorage } from '../modules/TypedPingStorage';
 
 // Define a type for the stored object
@@ -16,9 +23,9 @@ export default function DogStorageScreen() {
   const configureStorage = async () => {
     console.log('[DogStorage] Configuring storage...');
     await dogStorage.configure({
-      type: 'memory',        // memory | datastore | encrypted
-      fileName: 'dogs',         // persisted file name
-      keyAlias: 'dogKeyAlias',  // for encrypted storage 
+      type: 'memory', // memory | datastore | encrypted
+      fileName: 'dogs', // persisted file name
+      keyAlias: 'dogKeyAlias', // for encrypted storage
     });
     console.log('[DogStorage] Storage configured ✅');
   };
