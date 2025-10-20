@@ -12,6 +12,7 @@
     "codegen": "npx react-native codegen"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native/new-app-screen": "0.80.1",
     "@react-navigation/native": "^7.1.17",
     "@react-navigation/native-stack": "^7.3.26",
@@ -44,13 +45,13 @@
     "node": ">=18"
   },
   "codegenConfig": {
-  "name": "NativePingStorage",
-  "type": "modules",
-  "jsSrcsDir": "./src/specs"
-},
+    "name": "NativePingStorage",
+    "type": "modules",
+    "jsSrcsDir": "./src/specs"
+  },
   "ios": {
     "modulesProvider": {
       "NativePingStorage": "NativePingStorage"
-    }
-}
+  }
+  }
 }

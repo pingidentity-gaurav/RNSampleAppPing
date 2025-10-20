@@ -153,79 +153,124 @@ export const commonStyles = StyleSheet.create({
   },
 
   // ===== Journey Screen Styles =====
-journeyContainer: {
-  flexGrow: 1,
-  backgroundColor: colors.background,
-  paddingHorizontal: 20,
-  paddingTop: 40,
-  alignItems: 'center',
-},
+  journeyContainer: {
+    flexGrow: 1,
+    backgroundColor: colors.background,
+    paddingHorizontal: 20,
+    paddingTop: 40,
+    alignItems: 'center',
+  },
 
-journeyCard: {
-  backgroundColor: colors.surface,
-  borderRadius: 16,
-  width: '100%',
-  paddingVertical: 24,
-  paddingHorizontal: 20,
-  marginBottom: 20,
-  shadowColor: '#000',
-  shadowOpacity: 0.05,
-  shadowRadius: 6,
-  elevation: 3,
-},
+  journeyCard: {
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    width: '100%',
+    paddingVertical: 24,
+    paddingHorizontal: 20,
+    marginBottom: 20,
+    shadowColor: '#000',
+    shadowOpacity: 0.05,
+    shadowRadius: 6,
+    elevation: 3,
+  },
 
-journeyTitle: {
-  fontSize: 22,
-  fontWeight: '700',
-  color: colors.textDark,
-  textAlign: 'center',
-  marginBottom: 24,
-},
+  journeyTitle: {
+    fontSize: 22,
+    fontWeight: '700',
+    color: colors.textDark,
+    textAlign: 'center',
+    marginBottom: 24,
+  },
 
-journeySectionTitle: {
-  fontSize: 16,
-  fontWeight: '700',
-  color: colors.textDark,
-  marginBottom: 12,
-},
+  journeySectionTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: colors.textDark,
+    marginBottom: 12,
+  },
 
-journeyButtonPrimary: {
-  backgroundColor: colors.primary,
-  paddingVertical: 14,
-  borderRadius: 10,
-  alignItems: 'center',
-  marginTop: 12,
-},
+  journeyButtonPrimary: {
+    backgroundColor: colors.primary,
+    paddingVertical: 14,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 12,
+  },
 
-journeyButtonSecondary: {
-  backgroundColor: '#0056b3',
-  paddingVertical: 14,
-  borderRadius: 10,
-  alignItems: 'center',
-  marginTop: 12,
-},
+  journeyButtonSecondary: {
+    backgroundColor: '#0056b3',
+    paddingVertical: 14,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 12,
+  },
 
-journeyButtonText: {
-  color: '#fff',
-  fontWeight: '600',
-  fontSize: 16,
-},
+  journeyButtonText: {
+    color: '#fff',
+    fontWeight: '600',
+    fontSize: 16,
+  },
 
-journeyInput: {
-  borderWidth: 1,
-  borderColor: colors.border,
-  borderRadius: 10,
-  padding: 12,
-  fontSize: 15,
-  backgroundColor: '#fafafa',
-  marginBottom: 10,
-},
+  journeyInput: {
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: 10,
+    padding: 12,
+    fontSize: 15,
+    backgroundColor: '#fafafa',
+    marginBottom: 10,
+  },
 
-journeyLabel: {
-  fontSize: 14,
-  fontWeight: '600',
-  color: colors.textDark,
-  marginBottom: 6,
-},
+  journeyLabel: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: colors.textDark,
+    marginBottom: 6,
+  },
 
+  suggestionContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginTop: 8,
+    marginBottom: 16,
+  },
+
+  suggestionChip: {
+    borderColor: colors.border,
+    borderWidth: 1.5,
+    borderRadius: 20,
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    margin: 4,
+  },
+
+  suggestionText: {
+    color: colors.textDark,
+    fontSize: 14,
+  },
+
+  inputGroup: {
+    marginBottom: 14,
+  },
+
+
+  suspendedBox: {
+    borderRadius: 10,
+    padding: 12,
+    marginBottom: 16,
+  },
+
+  suspendedMessage: {
+    color: colors.textDark,
+    fontSize: 15,
+    lineHeight: 20,
+  },
+
+  helperNote: {
+    marginTop: 8,
+    color: colors.gray,
+    fontSize: 13,
+    fontStyle: 'italic',
+    lineHeight: 18,
+  },
 });
