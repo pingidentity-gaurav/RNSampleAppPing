@@ -136,7 +136,7 @@ export default function JourneyScreen() {
       if (cb.type === 'SuspendedTextOutputCallback') {
         hasSuspended = true;
         const message =
-          cb.output?.find((o: any) => o.name === 'message')?.value ??
+          cb.prompt ??
           'An email has been sent. Please check your inbox to continue.';
 
         return (
@@ -144,7 +144,6 @@ export default function JourneyScreen() {
             <Text style={commonStyles.suspendedMessage}>{message}</Text>
 
             <View>
-              <Text style={commonStyles.inputLabel}>Paste Resume URL</Text>
               <TextInput
                 style={commonStyles.input}
                 placeholder="Paste resume URL from email"
