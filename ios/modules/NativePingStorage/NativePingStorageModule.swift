@@ -252,7 +252,7 @@ class NativePingStorageModule: NSObject {
   
   // MARK: - Next
   @objc(next:input:completion:)
-  func next(_ nodeId: NSString,
+  func next(_ nodeId: NSString, // TODO : Revisit if we need nodeId or keep rely on internal lastNode
             input: NSDictionary,
             completion: @escaping (NSDictionary?, NSError?) -> Void) {
     print("NativePingStorageModule: next called with nodeId \(nodeId) and input \(input)")
